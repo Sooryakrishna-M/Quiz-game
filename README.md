@@ -1,1 +1,2 @@
-# This is one of my python projects
+# Quiz Game
+This is one of my python projects
