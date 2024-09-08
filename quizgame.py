@@ -1,0 +1,55 @@
+print("Welcome to my Quiz game")
+
+Name=(input("Enter your name: "))
+print('Best luck',Name)
+
+Reaction=input("Are u ready? ")
+
+if Reaction.lower() != "yes":
+    quit()
+
+print("Here comes the first question")
+
+point=0
+
+answer=(input("What is the full form of CPU? "))
+if answer=='central processing unit':
+    print("Correct :)")
+    print("You Earned one point")
+    point+=1
+else:
+    print("Incorrect :(")        
+
+answer=(input("What is the full form of GPU? "))
+if answer=='graphical processing unit':
+    print("Correct :)")
+    print("You Earned one point")
+    point+=1
+else:
+    print("Incorrect :(")        
+
+answer=(input("What is the full form of IEDC? "))
+if answer=='innovation and enterpreneurship development center':
+    print("Correct :)")
+    print("You Earned one point")
+    point+=1
+else:
+    print("Incorrect :(")        
+
+answer=(input("What is the full form of ED? "))
+if answer=='enterpreneurship development':
+    print("Correct :)")
+    print("You Earned one point")
+    point+=1
+else:
+    print("Incorrect :(")        
+
+answer=(input("What is the full form of DS? "))
+if answer=='data structures':
+    print("Correct :)")
+    print("You Earned one point")
+    point+=1
+else:
+    print("Incorrect :(")        
+
+print("Out of 5 you got",point)
