@@ -1,4 +1,4 @@
-print("Welcome to my Quiz game")
+print("Welcome to my Basic College Quiz game")
 
 Name=(input("Enter your name: "))
 print('Best luck',Name)
