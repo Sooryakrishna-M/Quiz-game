@@ -13,7 +13,7 @@ print("Here comes the first question")
 point=0
 
 answer=(input("What is the full form of CPU? "))
-if answer=='central processing unit':
+if answer.lower()=='central processing unit':
     print("Correct :)")
     print("You Earned one point")
     point+=1
@@ -21,7 +21,7 @@ else:
     print("Incorrect :(")        
 
 answer=(input("What is the full form of GPU? "))
-if answer=='graphical processing unit':
+if answer.lower()=='graphical processing unit':
     print("Correct :)")
     print("You Earned one point")
     point+=1
@@ -29,7 +29,7 @@ else:
     print("Incorrect :(")        
 
 answer=(input("What is the full form of IEDC? "))
-if answer=='innovation and enterpreneurship development center':
+if answer.lower()=='innovation and enterpreneurship development center':
     print("Correct :)")
     print("You Earned one point")
     point+=1
@@ -37,7 +37,7 @@ else:
     print("Incorrect :(")        
 
 answer=(input("What is the full form of ED? "))
-if answer=='enterpreneurship development':
+if answer.lower()=='enterpreneurship development':
     print("Correct :)")
     print("You Earned one point")
     point+=1
@@ -45,7 +45,7 @@ else:
     print("Incorrect :(")        
 
 answer=(input("What is the full form of DS? "))
-if answer=='data structures':
+if answer.lower()=='data structures':
     print("Correct :)")
     print("You Earned one point")
     point+=1
