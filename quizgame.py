@@ -52,4 +52,4 @@ if answer.lower()=='data structures':
 else:
     print("Incorrect :(")        
 
-print("Out of 5 you got",point)
+print("u got  " + point + " out of 5")
