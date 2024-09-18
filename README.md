@@ -1,2 +1,2 @@
 # Quiz Game
-This is first one of my python projects series
+First one of my python projects series
